@@ -1,0 +1,26 @@
+*.class
+*.log
+*.swp
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+
+
+# Scala-IDE specific
+.scala_dependencies
+.cache
+.classpath
+.project
+.settings/
+
+# Intellij specific
+.idea/
+
+# Local run of .travis.prepare.bintray.sh
+project/travis.plugins.sbt
