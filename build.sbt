@@ -26,7 +26,7 @@ libraryDependencies ++= {
 }
 
 
-libraryDependencies += "org.scaml" %% "scaml" % "0.3.0-SNAPSHOT"
+libraryDependencies += "org.scaml" %% "scaml" % "0.3.0.28"
 
 libraryDependencies += "org.apache.xmlgraphics" % "fop" % "2.0"
 
