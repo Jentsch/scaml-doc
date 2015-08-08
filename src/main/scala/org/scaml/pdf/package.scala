@@ -19,8 +19,6 @@ import scala.language.implicitConversions
 package object pdf {
   implicit val style = BlockSyntax(DefaultStyle)
 
-  case class FopAttribute(override val name: String) extends Attribute[String](name)
-
   implicit def tupleToFopAttribute(tuple2: (String, String)): Modifier =
     FopAttribute(tuple2._1) > tuple2._2
 
