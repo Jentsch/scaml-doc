@@ -18,4 +18,3 @@ ls -la ${FILE}
 # Enable sbt plugin
 cp .travis.plugins.sbt project/travis.plugins.sbt
 
-echo "bintrayPublishSettings" >> build.sbt

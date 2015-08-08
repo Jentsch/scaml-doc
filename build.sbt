@@ -1,11 +1,12 @@
-
 name := "scaml-pdf"
 
-description := "Generates PDFs with ScaML"
+version := "0.1-SNAPSHOT"
 
 organization := "org.scaml"
 
-version := "0.1-SNAPSHOT"
+description := "Generates PDFs with ScaML"
+
+licenses += ("Apache-2.0" -> url("http://opensource.org/licenses/Apache-2.0"))
 
 scalaVersion := "2.11.7"
 
