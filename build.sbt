@@ -27,12 +27,13 @@ libraryDependencies ++= {
 
 
 libraryDependencies += "org.scaml" %% "scaml" % "0.3.0.28"
+resolvers += "ScaML Bintray Repo" at "https://bintray.com/artifact/download/jentsch/maven/"
 
 libraryDependencies += "org.apache.xmlgraphics" % "fop" % "2.0"
 
 // Tests
+libraryDependencies += "org.specs2" %% "specs2-core" % "3.6.2" % "test"
 resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
 
-libraryDependencies += "org.specs2" %% "specs2-core" % "3.6.2" % "test"
-
 scalacOptions in Test += "-Yrangepos"
+
