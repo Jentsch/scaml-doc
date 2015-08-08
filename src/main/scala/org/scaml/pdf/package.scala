@@ -30,7 +30,7 @@ package object pdf {
 
   def cite(ref: Reference) = Element(Nil, Ref > ref)
 
-  def refList = Element(Nil, RefList > ())
+  def refList = Element(Nil, RefList > ((): Unit))
 
   private[pdf] val RefList = new Attribute[Unit]("ReferenceList")
   private[pdf] val Ref = new Attribute[Reference]("Reference")
