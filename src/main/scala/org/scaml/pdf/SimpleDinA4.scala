@@ -26,8 +26,8 @@ trait SimpleDinA4 extends Block {
     "master-name" -> "simpleA4" & "page-height" -> "297mm" & "page-width" -> "210mm" &
       "margin-top" -> "2cm" & "margin-bottom" -> "2cm" & "margin-left" -> "2cm" & "margin-right" -> "2cm"
 
-  def footer: Element = ml""
-  def header: Element = ml""
+  def footer: Element = Element(Nil)
+  def header: Element = Element(Nil)
 
   /**
    * Modifiers added to the resulting element
