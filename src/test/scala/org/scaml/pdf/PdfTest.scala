@@ -27,28 +27,6 @@ class PdfTest extends Specification  {
 
     subsection"Detailed topic"
 
-    p"""
-      >${xml(<fo:instream-foreign-object>
-      <math xmlns="http://www.w3.org/1998/Math/MathML" mode="inline">
-        <mrow>
-          <mi>I</mi>
-          <mrow>
-            <mo>(</mo>
-            <mi>x</mi>
-            <mo>)</mo>
-          </mrow>
-          <mo>=</mo>
-          <mi>F</mi>
-          <mo stretchy="false">(</mo>
-          <mi>x</mi>
-          <mo stretchy="false">)</mo>
-          <mo>+</mo>
-          <mi>C</mi>
-        </mrow>
-      </math>
-    </fo:instream-foreign-object>)}<
-    """
-
     subsection"About Language Embedding in Scala"
 
     p"""
