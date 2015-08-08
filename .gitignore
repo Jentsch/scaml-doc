@@ -26,4 +26,4 @@ project/plugins/project/
 project/travis.plugins.sbt
 
 # Result of a build process
-output.pdf
+output.*
