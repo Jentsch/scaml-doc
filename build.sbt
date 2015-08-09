@@ -20,7 +20,7 @@ scalacOptions ++= Seq("-deprecation", "-feature", "-Xlint", "-deprecation")
 libraryDependencies ++= {
   CrossVersion.partialVersion(scalaVersion.value) match {
     case Some((2, scalaMajor)) if scalaMajor >= 11 =>
-      Seq("org.scala-lang.modules" %% "scala-xml" % "1.0.4")
+      Seq("org.scala-lang.modules" %% "scala-xml" % "1.0.5")
     case _ =>
       Nil
   }
@@ -33,7 +33,7 @@ resolvers += "ScaML Bintray Repo" at "https://bintray.com/artifact/download/jent
 libraryDependencies += "org.apache.xmlgraphics" % "fop" % "2.0"
 
 // Tests
-libraryDependencies += "org.specs2" %% "specs2-core" % "3.6.2" % "test"
+libraryDependencies += "org.specs2" %% "specs2-core" % "3.6.4" % "test"
 resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
 
 scalacOptions in Test += "-Yrangepos"
